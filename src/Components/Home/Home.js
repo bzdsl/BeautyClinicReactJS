@@ -1,9 +1,11 @@
 /** @format */
 
 import React from "react";
-import BannerBackground from "../Assets/home-banner-background.png";
-import BannerImage from "../Assets/hero.png";
-import Navbar from "./Navbar";
+import "../../index.css";
+import "./Home.css";
+import BannerBackground from "../../Assets/home-banner-background.png";
+import BannerImage from "../../Assets/hero.png";
+import Navbar from "../Navbar";
 
 const Home = () => {
   return (

@@ -1,0 +1,86 @@
+/** @format */
+.contact-content {
+  margin-left: 50px;
+}
+
+.content-block .name {
+  margin-top: 20px;
+  display: flex;
+}
+
+.content-block .name input {
+  width: 242.21px;
+  height: 50.58px;
+  background: #ffffff;
+  border: 1px solid #d9ddfe;
+  border-radius: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  padding: 17px 0 17px 24px;
+  color: #c5c5c5;
+}
+
+.content-block .last-name {
+  margin-left: 36px;
+}
+
+.content-block .email input {
+  margin-top: 15px;
+  width: 520px;
+  height: 50.58px;
+  background: #ffffff;
+  border: 1px solid #d9ddfe;
+  border-radius: 15px;
+  padding: 17px 0 17px 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  color: #c5c5c5;
+}
+
+.content-block .request textarea {
+  margin-top: 15px;
+  width: 520px;
+  height: 200.47px;
+  background: #ffffff;
+  border: 1px solid #d9ddfe;
+  border-radius: 15px;
+  padding: 25px 0 0 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  color: #c5c5c5;
+}
+
+.content-block .btn-sent {
+  margin-top: 55px;
+  min-width: 248px;
+  height: 58px;
+}
+
+@media only screen and (max-width: 600px) {
+  .content-block .name {
+    flex-direction: column;
+  }
+
+  .content-block .last-name {
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+
+  .content-block .email input {
+    width: 100%;
+  }
+
+  .content-block .request textarea {
+    width: 100%;
+  }
+
+  .content-block .name input {
+    width: 100%;
+  }
+}

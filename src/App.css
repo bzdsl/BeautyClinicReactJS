@@ -240,6 +240,16 @@ nav {
 .watch-video-button span {
   color: #091156;
 }
+
+.contact-container {
+  display: flex;
+}
+/* .contact-image-section {
+  margin-right: 5%;
+}
+.contact-content {
+  margin-left: 10%;
+} */
 .contact-page-wrapper h1 {
   /* max-width: 900px !important; */
 }
@@ -274,15 +284,18 @@ nav {
   font-size: 1.3rem;
   padding: 0.5rem 1rem;
 }
+/* }
 .footer-wrapper {
-  margin: 6rem 0rem;
-  display: flex;
-  margin-top: 10rem;
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  background-size: cover;
 }
 
 .footer-wrapper .background-footer {
   position: absolute;
-
   z-index: -2;
   width: 1440px;
 }
@@ -291,11 +304,16 @@ nav {
 }
 .footer-icons {
   margin-top: 2.5rem;
+  display: flex;
+  cursor: pointer;
 }
 .footer-icons svg {
   font-size: 1.5rem;
   margin-right: 1.25rem;
   color: #585858;
+}
+.footer-text p {
+  color: white;
 }
 .footer-section-one {
   margin-left: 3%;
@@ -315,7 +333,7 @@ nav {
   font-weight: 600;
   color: #4c4c4c;
   cursor: pointer;
-}
+} */
 .service-card {
   display: flex;
 }
@@ -416,6 +434,14 @@ nav {
 .work-section-wrapper-team {
   margin-top: 5rem;
 }
+.work-section-wrapper-team .work-section-top .primary-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #8b8b8b;
+}
 .work-section-wrapper-team .service-card h1 {
   font-size: 16px;
   font-weight: 600;
@@ -505,6 +531,7 @@ nav {
   .home-bannerImage-container {
     max-width: 450px;
   }
+
   .home-banner-container,
   .about-section-container {
     flex-direction: column-reverse;
@@ -515,13 +542,21 @@ nav {
     flex-direction: column;
   }
   .home-image-section,
+  .contact-image-section,
   .about-section-image-container {
     width: 100%;
     max-width: 400px;
   }
+  .contact-image-section {
+    margin-bottom: 50px;
+  }
+  .contact-container {
+    align-items: center;
+  }
+
   .primary-heading {
     text-align: center;
-    max-width: 90%;
+    /* max-width: 90%; */
   }
   .primary-text {
     text-align: center;
@@ -531,7 +566,11 @@ nav {
   .about-section-text-container {
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 1rem;
+  }
+  .about-section-container .about-section-text-container .primary-heading,
+  .about-section-container .about-section-text-container .primary-text {
+    text-align: center;
   }
   .secondary-button {
     font-size: 1rem;
@@ -565,6 +604,11 @@ nav {
   .work-section-bottom {
     margin-top: 1rem !important;
   }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+
   .contact-form-container {
     padding: 0.5rem !important;
     flex-direction: column;
@@ -588,6 +632,9 @@ nav {
   }
   .footer-section-columns {
     margin: 1rem 0rem;
+  }
+  .footer-section-columns span {
+    color: white;
   }
   .App {
     max-width: 95vw;
