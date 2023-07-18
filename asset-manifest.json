@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/BHReact/static/css/main.fee17387.css",
+    "main.js": "/BHReact/static/js/main.733ecbdb.js",
+    "static/media/home-banner-background.png": "/BHReact/static/media/home-banner-background.5f534c9ef9c722badc80.png",
+    "static/media/background-contact.png": "/BHReact/static/media/background-contact.64eefcba7c40fd828133.png",
+    "static/media/background-service.png": "/BHReact/static/media/background-service.00cf8f1da916c4fed116.png",
+    "static/media/about.png": "/BHReact/static/media/about.3e94722298c75198a633.png",
+    "static/media/bg-footer1.png": "/BHReact/static/media/bg-footer1.538399b2f31a7dd55f7f.png",
+    "static/media/unsplash_FVh_yqLR9eA.png": "/BHReact/static/media/unsplash_FVh_yqLR9eA.058cef8c7ab2873abce7.png",
+    "static/media/Contact_Animations.png": "/BHReact/static/media/Contact_Animations.80db18a0b1d167f2684f.png",
+    "static/media/hero.png": "/BHReact/static/media/hero.99e10efc899fef6fd92e.png",
+    "static/media/unsplash_mEZ3PoFGs_k.png": "/BHReact/static/media/unsplash_mEZ3PoFGs_k.72d4162255148457799f.png",
+    "static/media/service_2.png": "/BHReact/static/media/service_2.e36b10fae0b220be8fbd.png",
+    "static/media/service_1.png": "/BHReact/static/media/service_1.2f99c90ec56cc62428b1.png",
+    "static/media/service_3.png": "/BHReact/static/media/service_3.8c887099f608d73e4115.png",
+    "static/media/logo2.svg": "/BHReact/static/media/logo2.6e304e92dbc883129210d16effd7d07c.svg",
+    "index.html": "/BHReact/index.html",
+    "static/media/play-footer.svg": "/BHReact/static/media/play-footer.17e4bfb9375e8fc246e4b18d764fde28.svg",
+    "main.fee17387.css.map": "/BHReact/static/css/main.fee17387.css.map",
+    "main.733ecbdb.js.map": "/BHReact/static/js/main.733ecbdb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fee17387.css",
+    "static/js/main.733ecbdb.js"
+  ]
+}
