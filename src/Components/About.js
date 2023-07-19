@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-
+import Button from "@mui/material/Button";
 import AboutBackground1 from "../Assets/img/background-service.png";
 
 import AboutBackgroundImage1 from "../Assets/img/about.png";
@@ -23,10 +23,28 @@ const About = () => {
             suscipit purus donec amet. Egestas volutpat facilisi eu libero.
             Nunc, ipsum ornare mauris sit quam quis enim. Varius tellus in
             suspendisse placerat. Id dui erat sed quam tellus in purus.
-            Pellentesque congue fringilla cras tellus enim.
+            Pellentesque congue fringilla cras tellus enim.thang
           </p>
           <div className='about-buttons-container'>
-            <button className='secondary-button'>Learn More</button>
+            <Button
+              variant='contained'
+              sx={{
+                width: "198px",
+                height: "58px",
+                backgroundColor: "#ff64ae",
+                color: "#fff",
+                padding: "0.5rem 1.75rem",
+                fontSize: "18px",
+                borderRadius: "5rem",
+                fontWeight: "600",
+                transition: "0.2s",
+                "&:hover": {
+                  backgroundColor: "#f253a0",
+                },
+              }}>
+              Learn More
+            </Button>
+
             <button className='watch-video-button'>
               <span>
                 {" "}

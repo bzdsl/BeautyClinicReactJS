@@ -14,7 +14,7 @@ const Service = () => {
         <h1 className='primary-heading service'>
           Learn services to focus on your beauty
         </h1>
-        <p className='primary-text'>
+        <p className='primary-text ' style={{ color: "#8b8b8b" }}>
           Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
           elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
         </p>

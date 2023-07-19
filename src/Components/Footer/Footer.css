@@ -1,71 +1,4 @@
-/**
- * .footer-wrapper {
- *   margin: 6rem 0rem;
- *   display: flex;
- *   margin-top: 8rem;
- * }
- * 
- * .footer-wrapper .background-footer {
- *   position: absolute;
- *   z-index: -1;
- *   width: 1440px;
- *   padding-left: 0;
- * }
- * .footer-logo-container {
- *   max-width: 180px;
- * }
- * .footer-icons {
- *   margin-top: 2.5rem;
- *   display: flex;
- *   cursor: pointer;
- * }
- * .footer-icons svg {
- *   font-size: 1.5rem;
- *   margin-right: 1.25rem;
- *   color: #585858;
- * }
- * .footer-text p {
- *   color: white;
- * }
- * .footer-section-one {
- *   margin-left: 3%;
- * }
- * .footer-section-two {
- *   flex: 1;
- *   display: flex;
- *   justify-content: flex-end;
- * }
- * .footer-section-columns {
- *   display: flex;
- *   flex-direction: column;
- *   min-width: 190px;
- * }
- * .footer-section-columns span {
- *   margin: 0.25rem 0rem;
- *   font-weight: 600;
- *   color: white;
- *   cursor: pointer;
- * }
- * 
- *   }
- *   .footer-section-two {
- *     flex-direction: column;
- *     margin-top: 2rem;
- *   }
- *   .footer-section-columns {
- *     margin: 1rem 0rem;
- *   }
- * }
- *
- * @format
- * @media (max-width: 800px) { .footer-wrapper { flex-direction: column;
- */
-
-.footer {
-  /* position: relative;
-  margin-top: 58px;
-  max-width: 1440px; */
-}
+/** @format */
 
 .background-footer img {
   position: absolute;
@@ -138,7 +71,7 @@
 
 .footer .pages span {
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 18px;
   line-height: 27px;
   letter-spacing: 0.1em;
   color: #ffffff;
@@ -186,7 +119,7 @@
 
 .footer-footer .copy-right {
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 18px;
   line-height: 24px;
   text-align: right;
   letter-spacing: 0.1em;
@@ -198,22 +131,8 @@
   right: 0;
   width: 100%;
   z-index: -2;
-  padding: 0 5px;
 }
 
-.footer .arrow-btn {
-  position: absolute;
-  bottom: 170px;
-  right: 65px;
-  z-index: 999;
-  width: 36px;
-  height: 36px;
-  background: #ff64ae;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 @media (max-width: 800px) {
   .footer .body {
     flex-wrap: wrap;
@@ -222,6 +141,7 @@
   }
   .footer {
     background-color: #091156;
+    width: 500px;
   }
   .background-footer .logo {
     visibility: hidden;

@@ -1,0 +1,14 @@
+/** @format */
+
+.social {
+  gap: 50px;
+  cursor: pointer;
+}
+.social .icon {
+  color: #091156;
+}
+
+.social .icon:hover {
+  color: #ffffff;
+  background-color: #091156;
+}

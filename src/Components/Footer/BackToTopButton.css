@@ -1,0 +1,26 @@
+/**
+ * Media query for screens up to 768px wide
+ *
+ * @format
+ */
+
+@media (max-width: 768px) {
+  .back-to-top-button {
+    bottom: 30px;
+    right: 2%;
+    height: 30px;
+    width: 30px;
+    font-size: 24px;
+  }
+}
+
+/* Media query for screens up to 480px wide */
+@media (max-width: 480px) {
+  .back-to-top-button {
+    bottom: 20px;
+    right: 2%;
+    height: 20px;
+    width: 20px;
+    font-size: 18px;
+  }
+}

@@ -1,6 +1,6 @@
 /** @format */
 .contact-content {
-  margin-left: 50px;
+  margin-left: 120px;
 }
 
 .content-block .name {
@@ -62,7 +62,11 @@
   height: 58px;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
+  .contact-content {
+    align-items: center;
+  }
+
   .content-block .name {
     flex-direction: column;
   }
@@ -70,6 +74,32 @@
   .content-block .last-name {
     margin-left: 0px;
     margin-top: 40px;
+  }
+
+  .content-block .email input {
+    width: 100%;
+  }
+
+  .content-block .request textarea {
+    width: 100%;
+  }
+
+  .content-block .name input {
+    width: 100%;
+  }
+} */
+@media only screen and (max-width: 600px) {
+  .contact-content {
+    margin-left: 0;
+  }
+
+  .content-block .name {
+    flex-direction: column;
+  }
+
+  .content-block .last-name {
+    margin-left: 0px;
+    margin-top: 20px;
   }
 
   .content-block .email input {
