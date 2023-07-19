@@ -94,9 +94,9 @@ const Footer = () => {
           <span className='copy-right'>
             © AltDesain Studio 2021 - All right reserved.
           </span>
-        </div>
-        <div className='ft-bt-bg'>
-          <img src={Background2} alt='' />
+          <div className='ft-bt-bg'>
+            <img src={Background2} alt='' />
+          </div>
         </div>
 
         <BackToTopButton />
