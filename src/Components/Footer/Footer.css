@@ -131,6 +131,7 @@
 }
 .ft-bt-bg img {
   position: absolute;
+  margin-top: 10px;
   left: 0;
   right: 0;
   width: 100%;
